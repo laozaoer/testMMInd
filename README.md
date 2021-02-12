@@ -31,7 +31,7 @@ This function generates a cohort with 100 subjects with a scalar time-independen
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
 ```
-testresult=Main_func_ind(data$X,data$Delta,data$Inspec,data$mimic,1.5,1000,1e-3)
+testresult=Main_func_ind(data$X,data$Delta,data$Inspec,data$mimic,hn=1.5)
 ```
 The output includes the estimate and the corresponding standard error for the regression parameter, estimate for the cumulative hazard function and the log-likelihood value.
 
@@ -49,7 +49,7 @@ This function generates a cohort with 100 subjects with a scalar time-dependent 
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
 ```
-testresult=Main_func_Expt(data$X,data$Delta,data$Inspec,data$mimic,1.5,1000,1e-3)
+testresult=Main_func_Expt(data$X,data$Delta,data$Inspec,data$mimic,hn=1.5)
 ```
 The output includes the estimate and the corresponding standard error for the regression parameter, estimate for the cumulative hazard function and the log-likelihood value.
 
@@ -72,7 +72,7 @@ This function generates a cohort with 100 subjects with two time-independent cov
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
 ```
-testresult=Main_func_ind(data$X,data$Delta,data$Inspec,data$mimic,1.5,1000,1e-3)
+testresult=Main_func_ind(data$X,data$Delta,data$Inspec,data$mimic,hn=1.5)
 ```
 The output includes the estimate and the corresponding standard error for the regression parameter, estimate for the cumulative hazard function and the log-likelihood value.
 
