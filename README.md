@@ -36,7 +36,7 @@ testresult=Main_func_ind(data$X,data$Delta,data$Inspec,data$mimic,1.5,1000,1e-3)
 ```
 The output includes the estimate and the corresponding standard error for the regression parameter, estimate for the cumulative hazard function and the log-likelihood value.
 
-### Scenario 2 (two time-independent covariates): <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta=0.5" style="border:none;"> <img src="http://chart.googleapis.com/chart?cht=tx&chl= n=100" style="border:none;">
+### Scenario 3 (two time-independent covariates): <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_1=0.5" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_2=1" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= n=100" style="border:none;">
 
 #### Simulate data:
 ```
