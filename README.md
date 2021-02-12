@@ -24,7 +24,7 @@ library(MMIntAdd)
 set.seed(1)
 Zt=function(X,t) X*t
 Lambdat=function(t) 0.2*t
-data=Data_generation(100,c(0.5),Lambdat,Zt)
+data=Data_generation(n=100,beta=c(0.5),Lambdat,Zt)
 ```
 This function generates a cohort with 100 subjects with a scalar time-independent covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
@@ -42,7 +42,7 @@ The output includes the estimate and the corresponding standard error for the re
 set.seed(1)
 Zt=function(X,t) X*(exp(t)-1)
 Lambdat=function(t) 0.2*t
-data=Data_generation(100,c(0.5),Lambdat,Zt)
+data=Data_generation(n=100,beta=c(0.5),Lambdat,Zt)
 ```
 This function generates a cohort with 100 subjects with a scalar time-dependent covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
@@ -64,7 +64,7 @@ set.seed(1)
 Zt=function(X,t) X*t
 Lambdat=function(t) 0.2*t
 This is the cumulative hazard function, Users can use their own Lambdat by changing the specific form. 
-data=Data_generation(100,c(0.5,1),Lambdat,Zt)
+data=Data_generation(n=100,beta=c(0.5,1),Lambdat,Zt)
 ```
 This function generates a cohort with 100 subjects with two time-independent covariates. The covariates for each subject are generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
