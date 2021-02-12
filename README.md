@@ -26,7 +26,7 @@ Zt=function(X,t) X*t
 Lambdat=function(t) 0.2*t
 data=Data_generation(100,c(0.5),Lambdat,Zt)
 ```
-This function generates a cohort with 100 subjects with a scalar covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
+This function generates a cohort with 100 subjects with a scalar time-independent covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
@@ -44,7 +44,7 @@ Zt=function(X,t) X*(exp(t)-1)
 Lambdat=function(t) 0.2*t
 data=Data_generation(100,c(0.5),Lambdat,Zt)
 ```
-This function generates a cohort with 100 subjects with a scalar covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
+This function generates a cohort with 100 subjects with a scalar time-dependent covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
@@ -67,7 +67,7 @@ Lambdat=function(t) 0.2*t
 This is the cumulative hazard function, Users can use their own Lambdat by changing the specific form. 
 data=Data_generation(100,c(0.5,1),Lambdat,Zt)
 ```
-This function generates a cohort with 100 subjects with two covariates. The covariates for each subject are generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
+This function generates a cohort with 100 subjects with two time-independent covariates. The covariates for each subject are generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
 #### Estimate parameters:
 The regression parameter and the cumulative hazard function can be estimated using the command
