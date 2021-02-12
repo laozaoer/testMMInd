@@ -55,8 +55,7 @@ The output includes the estimate and the corresponding standard error for the re
 
 
 
-### Scenario 3 (two time-independent covariates): <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_1=0.5" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_2=1" style="border:none;">
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= X(t)=X" style="border:none;">
+### Scenario 3 (two time-independent covariates): <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_1=0.5" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta_2=1" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= X(t)=X" style="border:none;">
 
 
 #### Simulate data:
