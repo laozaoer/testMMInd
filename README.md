@@ -17,7 +17,7 @@ There is an example to show how to use this package. First, use following comman
 # Load package
 library(MMIntAdd)
 ```
-### Scenario 1 (single time-independent covariate): <img src="http://chart.googleapis.com/chart?cht=tx&chl= r=0" style="border:none;">, <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta=0.5" style="border:none;"> <img src="http://chart.googleapis.com/chart?cht=tx&chl= n=100" style="border:none;">
+### Scenario 1 (single time-independent covariate): <img src="http://chart.googleapis.com/chart?cht=tx&chl= \beta=0.5" style="border:none;"> <img src="http://chart.googleapis.com/chart?cht=tx&chl= n=100" style="border:none;">
 
 #### Simulate data:
 ```
