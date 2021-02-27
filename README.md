@@ -2,7 +2,7 @@
 
 
 ## Overview
-The **MMIntAdd** package implements a novel minorize-maximize algorithm to estimate parameters of additive risks  model with interval-censored data. This novel algorithm can efficiently estimate the regression parameter and the cumulative hazard function simultaneously. The package takes advantage of C++ computational efficiency to reduce the computation time.
+The **MMIntAdd** package implements a novel minorize-maximize algorithm to estimate parameters of additive risks  model with interval-censored data. This algorithm can efficiently estimate the regression parameter and the cumulative hazard function simultaneously. The package takes advantage of C++ computational efficiency to reduce the computation time.
 
 ## Installation
 
