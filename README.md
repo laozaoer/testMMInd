@@ -26,20 +26,13 @@ Zt=function(X,t) X*t
 Lambdat=function(t) 0.2*t
 data=Data_generation(n=100,beta=c(0.5),Lambdat,Zt)
 head(data)
-     left.inspec right.inspec left.censoring interval.censoring right.censoring
-[1,]   3.2768387          Inf              0                  0               1
-[2,]   1.3761127          Inf              0                  0               1
-[3,]   0.0000000     1.035933              1                  0               0
-[4,]   0.9769485     3.742266              0                  1               0
-[5,]   3.8487090          Inf              0                  0               1
-[6,]   0.0000000     1.983089              1                  0               0
-     covariate_1
-[1,]           0
-[2,]           0
-[3,]           1
-[4,]           1
-[5,]           0
-[6,]           1
+     left.inspec right.inspec left.censoring interval.censoring right.censoring covariate_1
+[1,]   3.2768387          Inf              0                  0               1           0
+[2,]   1.3761127          Inf              0                  0               1           0
+[3,]   0.0000000     1.035933              1                  0               0           1
+[4,]   0.9769485     3.742266              0                  1               0           1
+[5,]   3.8487090          Inf              0                  0               1           0
+[6,]   0.0000000     1.983089              1                  0               0           1
 ```
 This function generates a cohort with 100 subjects with a scalar time-independent covariate. The covariate for each subject is generated from Bernoulli(0.5) distribution. Users can user their own cumulative hazard function by changing the specific form of Lambdat. 
 
