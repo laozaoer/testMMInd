@@ -12,7 +12,7 @@ install.packages("MMIntAdd_1.0.tar.gz")
 ```
 
 ## Example
-There is an example to show how to use this package. First, use following command to simulate data. Data simulating have a dependenciy [**nleqslv**](https://cran.r-project.org/web/packages/nleqslv/index.html).
+There is an example to show how to use this package. First, use the following command to simulate data. Data simulating have a dependenciy [**nleqslv**](https://cran.r-project.org/web/packages/nleqslv/index.html).
 ```
 # Load package
 library(MMIntAdd)
