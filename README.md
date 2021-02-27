@@ -6,7 +6,7 @@ The **MMIntAdd** package implements a novel minorize-maximize algorithm to estim
 
 ## Installation
 
-Downlowd the compressed file *MMIntAdd_1.0.tar.gz* to the working directory and  use following command to install it
+Downlowd the compressed file *MMIntAdd_1.0.tar.gz* to the working directory and  use the following command to install it
 ```
 install.packages("MMIntAdd_1.0.tar.gz")
 ```
